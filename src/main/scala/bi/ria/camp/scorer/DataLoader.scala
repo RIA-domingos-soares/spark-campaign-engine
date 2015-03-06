@@ -16,10 +16,12 @@ class DataLoader(sparkContext: SparkContext) {
 
   }
 
-  def splitLoadLibSVMFile(datasetPath: String, trainingFraction: Double) : (RDD[LabeledPoint], RDD[LabeledPoint]) = {
+  def splitLoadLibSVMFile(datasetPath: String, trainingFraction: Double): (RDD[LabeledPoint], RDD[LabeledPoint]) = {
 
-    if(trainingFraction < 0.0 || trainingFraction > 1.0 )
+    if (trainingFraction < 0.0 || trainingFraction > 1.0) {
+
       throw new IllegalArgumentException("Training dataset size must be a natural fraction of 1.0")
+    }
 
     val splits = loadLibSVMFile(datasetPath: String).randomSplit(Array(trainingFraction, 1.0 - trainingFraction))
 

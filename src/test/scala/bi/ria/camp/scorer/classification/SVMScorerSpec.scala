@@ -12,7 +12,6 @@ class SVMScorerSpec extends UnitSparkSpec with Matchers {
 
   "The SVM classifier" should "process the Adult UCI dataset with accuracy" in {
 
-
     val scorer = new SVMScorer(sc, 200, 0.2)
 
     val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput1.txt", 0.7)

@@ -33,10 +33,8 @@ class SVMScorer(sparkContext: SparkContext, numIterations: Int, regularization: 
     model.asInstanceOf[SVMModel].clearThreshold()
 
     testData.map {
-
       point => val prediction = model.predict(point.features)
         (point.label, prediction)
-
     }
 
   }

@@ -11,12 +11,11 @@ import org.scalatest._
 /**
  * Created by domingos on 1/29/15.
  */
-class RandomForestScorerSpec extends UnitSparkSpec with Matchers {
-
+class RandomForestScorerSpec extends UnitSparkSpec with Matchers {s
 
   "The RandomForest classifier" should "process the Adult UCI dataset with accuracy" in {
 
-    // the following parameters have been optimized to the given input
+    // the following parameters have been optimized to the given input - two many trees or too depth = overfitting
 
     val scorer = new RandomForestScorer(sc, 2, 100, 15)
 
@@ -35,7 +34,7 @@ class RandomForestScorerSpec extends UnitSparkSpec with Matchers {
 
     "The RandomForest classifier" should "process the gene selection dataset with accuracy" in {
 
-      // the following parameters have been optimized to the given input
+      // the following parameters have been optimized to the given input - two many trees or too depth = overfitting
       val scorer = new RandomForestScorer(sc, 2, 150, 15)
 
       val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput3.txt", 0.7)
