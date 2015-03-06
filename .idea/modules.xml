@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/campaign-engine-build.iml" filepath="$PROJECT_DIR$/.idea/modules/campaign-engine-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cescorer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cescorer-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-campaign-engine.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-campaign-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-campaign-engine-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-campaign-engine-build.iml" />
+    </modules>
+  </component>
+</project>

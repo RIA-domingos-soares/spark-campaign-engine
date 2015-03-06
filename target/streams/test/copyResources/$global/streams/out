@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/domingos/git/CEScorer/src/test/resources/libsvmInput1.txt,/Users/domingos/git/CEScorer/target/scala-2.10/test-classes/libsvmInput1.txt)[0m
+[0m[[0mdebug[0m] [0m	(/Users/domingos/git/CEScorer/src/test/resources/libsvmInput2.txt,/Users/domingos/git/CEScorer/target/scala-2.10/test-classes/libsvmInput2.txt)[0m
+[0m[[0mdebug[0m] [0m	(/Users/domingos/git/CEScorer/src/test/resources/libsvmInput3.txt,/Users/domingos/git/CEScorer/target/scala-2.10/test-classes/libsvmInput3.txt)[0m
+[0m[[0mdebug[0m] [0m	(/Users/domingos/git/CEScorer/src/test/resources/libsvmInput4.txt,/Users/domingos/git/CEScorer/target/scala-2.10/test-classes/libsvmInput4.txt)[0m
+[0m[[0mdebug[0m] [0m	(/Users/domingos/git/CEScorer/src/test/resources/libsvmInput5.txt,/Users/domingos/git/CEScorer/target/scala-2.10/test-classes/libsvmInput5.txt)[0m

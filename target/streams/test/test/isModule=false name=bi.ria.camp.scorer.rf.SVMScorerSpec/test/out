@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mSVMScorerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[31mException encountered when attempting to run a suite with class name: bi.ria.camp.scorer.rf.SVMScorerSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  akka.actor.InvalidActorNameException: actor name [LocalBackendActor] is not unique![0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.ChildrenContainer$NormalChildrenContainer.reserve(ChildrenContainer.scala:130)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children$class.reserveChild(Children.scala:77)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.reserveChild(ActorCell.scala:369)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children$class.makeChild(Children.scala:202)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.dungeon.Children$class.attachChild(Children.scala:42)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorCell.attachChild(ActorCell.scala:369)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.actor.ActorSystemImpl.actorOf(ActorSystem.scala:552)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.apache.spark.scheduler.local.LocalBackend.start(LocalBackend.scala:95)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:140)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.apache.spark.SparkContext.<init>(SparkContext.scala:335)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

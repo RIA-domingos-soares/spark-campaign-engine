@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mRandomForestScorerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe RandomForest classifier[0m[0m
+[0m[[0minfo[0m] [0m[32m- should process the Adult UCI dataset with accuracy[0m[0m
+[0m[[0minfo[0m] [0m[32mThe RandomForest classifier[0m[0m
+[0m[[0minfo[0m] [0m[32m- should process the gene selection dataset with accuracy[0m[0m
