@@ -1,6 +1,0 @@
-[0m[[0minfo[0m] [0m[32mSVMScorerSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32mThe SVM classifier[0m[0m
-[0m[[0minfo[0m] [0m[31m- should process the Adult UCI dataset with accuracy *** FAILED ***[0m[0m
-[0m[[0minfo[0m] [0m[31m  0.0 was not greater than or equal to 0.5525 (SVMScorerSpec.scala:22)[0m[0m
-[0m[[0minfo[0m] [0m[32mThe SVM classifier[0m[0m
-[0m[[0minfo[0m] [0m[32m- should process the gene selection dataset with accuracy[0m[0m
