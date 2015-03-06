@@ -15,7 +15,7 @@ class SVMScorerSpec extends UnitSparkSpec with Matchers {
 
     val scorer = new SVMScorer(sc, 200, 0.2)
 
-    val (training, testing) = new DataLoader(sc).loadLibSVMFile("src/test/resources/libsvmInput1.txt")
+    val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput1.txt", 0.7)
 
     scorer.train(training)
 
@@ -29,7 +29,7 @@ class SVMScorerSpec extends UnitSparkSpec with Matchers {
 
     val scorer = new SVMScorer(sc, 200, 0.2)
 
-    val (training, testing) = new DataLoader(sc).loadLibSVMFile("src/test/resources/libsvmInput5.txt")
+    val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput5.txt", 0.7)
 
     scorer.train(training)
 

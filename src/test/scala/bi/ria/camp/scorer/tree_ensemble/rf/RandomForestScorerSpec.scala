@@ -20,7 +20,7 @@ class RandomForestScorerSpec extends UnitSparkSpec with Matchers {
 
     val scorer = new RandomForestScorer(sc, 2, 100, 15)
 
-    val (training, testing) = new DataLoader(sc).loadLibSVMFile("src/test/resources/libsvmInput1.txt")
+    val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput1.txt", 0.7)
 
     scorer.train(training)
 
@@ -38,7 +38,7 @@ class RandomForestScorerSpec extends UnitSparkSpec with Matchers {
       // the following parameters have been optimized to the given input
       val scorer = new RandomForestScorer(sc, 2, 150, 15)
 
-      val (training, testing) = new DataLoader(sc).loadLibSVMFile("src/test/resources/libsvmInput3.txt")
+      val (training, testing) = new DataLoader(sc).splitLoadLibSVMFile("src/test/resources/libsvmInput3.txt", 0.7)
 
       scorer.train(training)
 
