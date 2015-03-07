@@ -65,3 +65,4 @@ target/streams/test/compile/$global/streams/export
 target/scala-2.10/test-classes/bi/ria/camp/scorer/svm/SVMScorerSpec.class
 target/streams/$global/ivyConfiguration/$global/streams/out
 target/streams/test/compile/$global/streams/out
+target
